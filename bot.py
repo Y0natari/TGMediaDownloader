@@ -4,10 +4,10 @@ import asyncio
 import os
 ###################################################################################################
 bot_path = os.path.dirname(os.path.abspath(__file__))
-api_id = "<paste_app_id_here>"
+api_id = <paste_app_id_here>
 api_hash = "<paste_app_hash_here>"
 bot = Client("Grabber", api_id=api_id, api_hash=api_hash)
-chat_id = "<paste_chat_id_here>"
+chat_id = <paste_chat_id_here>
 ###################################################################################################
 async def main():
     media_types = {
